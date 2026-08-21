@@ -17,7 +17,7 @@ body:
     id: version
     attributes:
       label: Tind 100 version and build
-      placeholder: "Example: 1.14.0 (27)"
+      placeholder: "Example: 1.14.1 (28)"
     validations:
       required: true
   - type: input
@@ -68,4 +68,3 @@ body:
       options:
         - label: I confirm that this report contains no personal, precise-location, account, health or security-sensitive information.
           required: true
-
