@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Tind 100</title>
+  <desc id="desc">A stylised mountain and the number 100</desc>
+  <rect width="64" height="64" rx="16" fill="#0d3f31"/>
+  <path d="M8 44 23 20l8 12 7-10 18 22H8Z" fill="#f6f3ea"/>
+  <path d="m23 20 3.9 5.9L23 28l-3.7-2.1L23 20Zm15 2 4.4 5.4-4.1-.6-3.3 2.6L38 22Z" fill="#d2a84a"/>
+  <text x="32" y="53" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="800" fill="#f6f3ea">100</text>
+</svg>
+

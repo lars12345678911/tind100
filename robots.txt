@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lars12345678911.github.io/tind100/sitemap.xml

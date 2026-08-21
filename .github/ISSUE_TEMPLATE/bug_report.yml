@@ -1,0 +1,71 @@
+name: Bug report
+description: Report an ordinary Tind 100 problem without personal or sensitive data.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Tind 100.
+
+        **This report will be public.** Do not include an Apple ID, password, code,
+        Game Center identifier, precise address, GPS track, health information,
+        account screenshot or security-vulnerability details. Use the private
+        support address on the Support page for those matters.
+  - type: input
+    id: version
+    attributes:
+      label: Tind 100 version and build
+      placeholder: "Example: 1.14.0 (27)"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model and iOS version
+      placeholder: "Example: iPhone 16 Pro, iOS 18.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: App language
+      options:
+        - Norwegian
+        - English
+        - Spanish
+        - German
+        - Simplified Chinese
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened?
+      description: Describe the steps, expected result and actual result without personal data.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Local progress
+        - Game Center or iCloud sync
+        - GPS or route recording
+        - Maps or offline maps
+        - County catalogue
+        - Language or layout
+        - Sharing
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-safe
+    attributes:
+      label: Public-data check
+      options:
+        - label: I confirm that this report contains no personal, precise-location, account, health or security-sensitive information.
+          required: true
+

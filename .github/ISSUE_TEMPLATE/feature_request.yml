@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest a Tind 100 improvement without personal or sensitive data.
+title: "[Idea] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This request will be public. Do not include personal information,
+        precise locations, private tracks, account details or copyrighted route text.
+  - type: textarea
+    id: need
+    attributes:
+      label: What need would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-safe
+    attributes:
+      label: Public-data check
+      options:
+        - label: I confirm that this request contains no personal, precise-location, account, health or security-sensitive information.
+          required: true
+
