@@ -17,7 +17,7 @@ body:
     id: version
     attributes:
       label: Tind 100 version and build
-      placeholder: "Example: 1.14.1 (28)"
+      placeholder: "Example: 1.17.0 (41)"
     validations:
       required: true
   - type: input
@@ -54,7 +54,7 @@ body:
         - Local progress
         - Game Center or iCloud sync
         - GPS or route recording
-        - Maps or offline maps
+        - Online maps or deletion of a legacy local map package
         - County catalogue
         - Language or layout
         - Sharing

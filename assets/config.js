@@ -3,8 +3,8 @@ window.TIND100_SITE = Object.freeze({
   publisherCountryCode: "NO",
   supportEmail: "lars@larsask.com",
   repositoryUrl: "https://github.com/lars12345678911/tind100",
-  appVersion: "1.14.1",
-  appBuild: "28",
+  appVersion: "1.17.0",
+  appBuild: "41",
   minimumIOS: "17",
-  policyUpdatedISO: "2026-08-21"
+  policyUpdatedISO: "2026-08-29"
 });

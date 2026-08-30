@@ -5,6 +5,24 @@ information, privacy, support and safety website. No licence is granted to
 copy, modify, redistribute, sublicense or commercially reuse the website text,
 design, logo or source files without prior written permission.
 
+The versioned file
+`open-data/seed_peaks-v1.17.0-build41.json` is a separate open-data artefact.
+To the extent that Lars Ask holds copyright or database rights in its original
+selection, arrangement or adaptations, those rights are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+The file incorporates attributed Kartverket material. Reuse must retain
+`© Kartverket`, link to the applicable Kartverket source terms and CC BY 4.0,
+and indicate that Tind 100 selected, combined, calculated, rounded and ranked
+the material. Suggested credit: `Tind 100 catalogue v1.17.0 (build 41), based
+on data © Kartverket`. Kartverket has not endorsed or quality-assured Tind 100.
+
 Third-party names, trademarks, links and attributed material remain subject to
-the rights and terms of their respective owners. This notice does not grant any
-right to copy or redistribute the Tind 100 peak catalogue or third-party data.
+the rights and terms of their respective owners. Nothing in this notice limits
+rights granted directly by those owners. In particular, the identified source
+records document Kartverket SSR, DTM10, Høyde DTM1 and Kommuneinfo material as
+available under CC BY 4.0; separate OpenStreetMap material is documented as
+subject to the ODbL.
+Reuse must follow the applicable attribution, licence-notice and change-
+indication requirements.
