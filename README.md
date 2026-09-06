@@ -2,14 +2,17 @@
 
 Public, static information site for Tind 100. It contains marketing information,
 privacy information, privacy choices, support, safety information, data-source
-attribution and terms in Norwegian, English, Spanish, German and Simplified
-Chinese.
+attribution and terms in Norwegian, English, French, Spanish, German and
+Simplified Chinese. The privacy pages also document the voluntary, local-first TestFlight
+pilot, user-controlled report export and the publisher's raw-report retention
+limit.
 
-Current publication target: Tind 100 version 1.17.0 (build 41), updated
-29 August 2026.
+Current publication target: Tind 100 version 1.18.0 (build 44), updated
+6 September 2026.
 
 This repository contains one versioned, byte-identical public copy of the
-active build 41 peak catalogue and its SHA-256 checksum under `open-data/`.
+unchanged build 41 peak-catalogue snapshot and its SHA-256 checksum under
+`open-data/`; the app release target is build 44.
 It intentionally does **not** contain iOS source code, user data, credentials,
 private correspondence, raw provenance evidence, historical catalogues, map
 tile archives or build products.
