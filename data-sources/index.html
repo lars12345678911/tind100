@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Data sources for Tind 100 version 1.18.0 (build 44), updated 6 September 2026: 1,500 documented peak records, a separate online Kartverket map capped at zoom 11, and user-started offline packages containing exactly zoom levels 5–11.">
+  <meta name="description" content="Data sources for Tind 100 version 1.18.0 (build 45), updated 15 October 2026: 1,500 documented peak records; Kartverket online display up to zoom 17; user-selected OSM offline packages with source data at zoom 0–14 and display up to zoom 16, with area and storage limits.">
   <meta name="theme-color" content="#0d3f31">
   <meta name="robots" content="index,follow">
   <link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
@@ -20,6 +20,18 @@
   <div class="draft-warning" role="status"></div>
   <main id="main" class="page-shell" tabindex="-1"><div class="hero"></div><div class="content-grid"></div></main>
   <footer class="site-footer"></footer>
-  <noscript><div class="noscript-card"><h1>Data sources for Tind 100</h1><p>Version 1.18.0 (build 44), updated 6 September 2026, uses an active source-and-licence-documented catalogue of 1,500 records: exactly 100 per county, derived from Kartverket SSR, DTM10, DTM1 and Kommuneinfo under CC BY 4.0. It contains no inherited hiking prose or prominence values. Kartverket topographic raster is shown as a separate online map capped at zoom level 11. With one explicit action, the user can download one selected area as one local package containing exactly zoom levels 5–11 and no others; zoom levels 12–20 are not downloaded. This documentation is not a legal guarantee. Enable JavaScript for complete attribution in six languages. This site contains no analytics or tracking script.</p></div></noscript>
+  <noscript>
+    <div class="noscript-card" lang="en-GB">
+      <h1>Data sources for Tind 100</h1>
+      <p>Version 1.18.0 (build 45), updated 15 October 2026, uses a source-and-licence-documented catalogue of 1,500 records: exactly 100 per county, derived from Kartverket SSR, NHM/DTM and Kommuneinfo. CC BY 4.0 applies where identified in source metadata; detailed terrain inputs require retained service-specific rights confirmation. It contains no inherited hiking prose or prominence values.</p>
+      <p>Model elevations and representative summit points for the 653 new entries in build 45 are derived from Kartverket NHM/DTM through WCS: 651 from extractions on a 10 m grid and two from individually documented extractions on a 1 m grid. Grid spacing is not an accuracy guarantee. The 847 retained entries were not reverified by these extractions. Each entry identifies its data sources. Tind 100 selected, calculated and rounded the values; these are not field measurements or route recommendations. <a href="https://kartkatalog.geonorge.no/metadata/nasjonal-hoeydemodell-digital-terrengmodell-25833-wcs/0f0a0f38-00c4-4213-a9e5-2d861dc4abb0">NHM/DTM · Kartverket WCS</a>.</p>
+      <p>Geographic selection also uses Statistics Norway (SSB) population-grid data for 2025 under NLOD 1.0. Population proximity is a straight-line planning indicator, not travel time, documented access or a safety assessment.</p>
+      <p>For reuse of the build 45 selection: Also retain the credit “Source: Statistics Norway (SSB), population on 1 km grids 2025”, the links to the SSB source and NLOD 1.0, and the notice describing Tind 100’s processing. <a href="https://kartkatalog.geonorge.no/Metadata/uuid/25c70158-5841-4801-8bf3-fc3c5adf5329">SSB · 2025</a> · <a href="https://data.norge.no/nlod/no/1.0">NLOD 1.0</a>.</p>
+      <p>The online Kartverket hiking map is displayed up to zoom 17. The app automatically caches eligible tiles you actually view on disk at zoom levels 5–16 when the source permits it. The cache is limited to 128 MiB and 4,096 tiles, retained for at most seven days and possibly less depending on the source response. It is not a complete offline map. Kartverket receives tile coordinates (x/y/z), revealing the map area, and ordinary network information such as your IP address. No new Kartverket area download is offered. Map data © Kartverket. See the source terms and licences. Kartverket has not endorsed or quality-assured Tind 100.</p>
+        <p>OSM map areas download only after you select and confirm one area. Downloads use HTTPS from GitHub Releases and GitHub file hosts github.com, release-assets.githubusercontent.com or objects.githubusercontent.com. The host receives your IP address, the selected area through the file URL and the app's User-Agent; the request does not send GPS position, route tracks or Game Center ID. Maps use © OpenStreetMap contributors under ODbL 1.0. Packages contain source data at zoom levels 0–14 and can be displayed up to level 16; enlarging above 14 adds no new detail.</p>
+        <p>Map-source terms and data licences are separate from the peak catalogue licence. See the applicable attribution and linked terms. This is not an endorsement or a general permission to redistribute Kartverket tiles.</p>
+      <p>This documentation is not a legal guarantee. Enable JavaScript for complete attribution in six languages. This site contains no analytics or tracking script.</p>
+    </div>
+  </noscript>
 </body>
 </html>

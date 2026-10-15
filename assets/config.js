@@ -4,7 +4,7 @@ window.TIND100_SITE = Object.freeze({
   supportEmail: "lars@larsask.com",
   repositoryUrl: "https://github.com/lars12345678911/tind100",
   appVersion: "1.18.0",
-  appBuild: "44",
+  appBuild: "45",
   minimumIOS: "17",
-  policyUpdatedISO: "2026-09-06"
+  policyUpdatedISO: "2026-10-15"
 });

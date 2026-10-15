@@ -5,18 +5,52 @@ information, privacy, support and safety website. No licence is granted to
 copy, modify, redistribute, sublicense or commercially reuse the website text,
 design, logo or source files without prior written permission.
 
-The versioned file
-`open-data/seed_peaks-v1.17.0-build41.json` is a separate open-data artefact.
-To the extent that Lars Ask holds copyright or database rights in its original
+The following versioned catalogue files are separate open-data artefacts:
+
+- `open-data/seed_peaks-v1.18.0-build45.json`: the active, geographically revised
+  catalogue for version 1.18.0 (build 45).
+- `open-data/seed_peaks-v1.17.0-build41.json`: the historical snapshot for
+  version 1.17.0 (build 41), also used unchanged in version 1.18.0 (build 44).
+  It is not the active build 45 catalogue.
+
+To the extent that Lars Ask holds copyright or database rights in their original
 selection, arrangement or adaptations, those rights are licensed under
 Creative Commons Attribution 4.0 International (CC BY 4.0):
 https://creativecommons.org/licenses/by/4.0/
 
-The file incorporates attributed Kartverket material. Reuse must retain
+These catalogue files incorporate attributed Kartverket material. CC BY 4.0
+applies to source inputs where identified in the linked source metadata; the
+publisher must retain service-specific rights confirmation for detailed
+NHM/DTM inputs. This notice does not extend a source licence or grant rights
+to map tiles. Reuse must retain
 `© Kartverket`, link to the applicable Kartverket source terms and CC BY 4.0,
 and indicate that Tind 100 selected, combined, calculated, rounded and ranked
-the material. Suggested credit: `Tind 100 catalogue v1.17.0 (build 41), based
-on data © Kartverket`. Kartverket has not endorsed or quality-assured Tind 100.
+the material. Suggested credits, according to the file reused:
+
+- `Tind 100 catalogue v1.18.0 (build 45), based on data © Kartverket`.
+- `Tind 100 catalogue snapshot v1.17.0 (build 41), used unchanged in v1.18.0
+  (build 44), based on data © Kartverket`.
+
+Kartverket has not endorsed or quality-assured Tind 100.
+
+For the 653 new build 45 entries, elevations and representative summit
+points were derived from Kartverket NHM/DTM through WCS: 651 extractions
+on a 10 m grid and two individually documented extractions on a 1 m grid.
+The 847 retained entries were not reverified by these extractions. Grid
+spacing is not an accuracy guarantee.
+WCS metadata: https://kartkatalog.geonorge.no/metadata/nasjonal-hoeydemodell-digital-terrengmodell-25833-wcs/0f0a0f38-00c4-4213-a9e5-2d861dc4abb0
+Kartverket source terms: https://www.kartverket.no/api-og-data/vilkar-for-bruk
+
+Geographic selection for build 45 uses Statistics Norway (SSB), Population on
+1 km grids 2025, under NLOD 1.0. Tind 100 processed the data into straight-line
+proximity estimates, not travel times or confirmation of public access.
+SSB has not endorsed this selection.
+Reuse of the build 45 selection must also retain the credit
+`Source: Statistics Norway (SSB), population on 1 km grids 2025`,
+the following SSB source and NLOD 1.0 links, and the notice describing
+Tind 100's processing.
+Source: https://kartkatalog.geonorge.no/Metadata/uuid/25c70158-5841-4801-8bf3-fc3c5adf5329
+Licence: https://data.norge.no/nlod/no/1.0
 
 Third-party names, trademarks, links and attributed material remain subject to
 the rights and terms of their respective owners. Nothing in this notice limits
